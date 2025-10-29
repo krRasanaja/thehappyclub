@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Happy Club</title>
+  <meta name="description" content="The Happy Club — a welcoming place to learn, share, and celebrate small joys." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">The Happy Club</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="site-nav" class="site-nav">
+        <a href="#about">About</a>
+        <a href="#join">Join</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Welcome to The Happy Club</h1>
+        <p>Making small moments meaningful — join our friendly community for events, resources, and daily inspiration.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#join">Join Us</a>
+          <a class="btn ghost" href="#about">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section about">
+      <h2>About The Happy Club</h2>
+      <p>The Happy Club is a welcoming space where people come together to celebrate everyday joys, learn wellbeing practices, and make new friends. We run monthly events, online meetups, and share resources to help brighten your day.</p>
+    </section>
+
+    <section id="events" class="container section features">
+      <h2>What We Do</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Monthly Meetups</h3>
+          <p>In-person and online meetups with guided activities and time to connect.</p>
+        </article>
+        <article class="card">
+          <h3>Workshops</h3>
+          <p>Short workshops focused on creativity, mindfulness, and wellbeing.</p>
+        </article>
+        <article class="card">
+          <h3>Community Projects</h3>
+          <p>Volunteer, collaborate, and bring positive change to your neighborhood.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section gallery">
+      <h2>Gallery</h2>
+      <p>Photos and highlights coming soon. Add your favorite moments when you join!</p>
+      <div class="placeholder-grid">
+        <div class="placeholder">Photo</div>
+        <div class="placeholder">Photo</div>
+        <div class="placeholder">Photo</div>
+      </div>
+    </section>
+
+    <section id="join" class="container section join">
+      <h2>Join The Happy Club</h2>
+      <p>Sign up to get event updates, resources, and a warm welcome email.</p>
+
+      <form id="signup-form" class="signup-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label>
+          Full name
+          <input name="name" type="text" required />
+        </label>
+        <label>
+          Email address
+          <input name="email" type="email" required />
+        </label>
+        <label class="checkbox">
+          <input name="subscribe" type="checkbox" checked />
+          I want to receive updates and newsletters
+        </label>
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Sign Up</button>
+        </div>
+      </form>
+      <p class="note">Tip: replace the Formspree action URL with your chosen backend or email provider.</p>
+    </section>
+
+    <section id="contact" class="container section contact">
+      <h2>Contact</h2>
+      <p>Email us at <a href="mailto:hello@thehappyclub.example">hello@thehappyclub.example</a> or use the signup form above.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> The Happy Club — Made with care.</p>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
