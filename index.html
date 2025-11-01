@@ -3,105 +3,263 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>The Happy Club</title>
-  <meta name="description" content="The Happy Club — a welcoming place to learn, share, and celebrate small joys." />
+  <title>The Happy Club — Growing Joyful Futures</title>
+  <meta name="description" content="The Happy Club nurtures regenerative agriculture, thriving farmers, and joyful communities across the globe." />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#">The Happy Club</a>
-      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">🌾</span>
+        <span class="brand-text">
+          <strong>The Happy Club</strong>
+          <span>Growing joyful futures</span>
+        </span>
+      </a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <nav id="site-nav" class="site-nav">
         <a href="#about">About</a>
-        <a href="#join">Join</a>
-        <a href="#events">Events</a>
+        <a href="#initiatives">Initiatives</a>
+        <a href="#impact">Impact</a>
+        <a href="#team">Team</a>
         <a href="#contact">Contact</a>
+        <a class="btn nav-cta" href="#join">Join Us</a>
         <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="top">
     <section class="hero">
       <div class="container hero-inner">
-        <h1>Welcome to The Happy Club</h1>
-        <p>Making small moments meaningful — join our friendly community for events, resources, and daily inspiration.</p>
-        <div class="hero-cta">
-          <a class="btn primary" href="#join">Join Us</a>
-          <a class="btn ghost" href="#about">Learn More</a>
+        <div class="hero-content">
+          <span class="hero-tag">Regenerative agriculture for every community</span>
+          <h1>We help people grow food, futures, and joy.</h1>
+          <p>The Happy Club equips farmers, families, and future leaders with climate-smart training, resilient seeds, and thriving marketplaces—so every harvest feeds a kinder world.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#join">Join the Movement</a>
+            <a class="btn secondary" href="#initiatives">See Our Programs</a>
+          </div>
+          <ul class="hero-highlights" aria-label="Key highlights">
+            <li>
+              <span>18</span>
+              community growing hubs in South Asia &amp; beyond
+            </li>
+            <li>
+              <span>32k</span>
+              seedlings shared with smallholder families
+            </li>
+            <li>
+              <span>98%</span>
+              of partners report improved wellbeing
+            </li>
+          </ul>
+        </div>
+        <div class="hero-media" aria-hidden="true">
+          <div class="hero-bloom">
+            <div class="seed one"></div>
+            <div class="seed two"></div>
+            <div class="seed three"></div>
+          </div>
+          <div class="hero-card soil">
+            <h3>Soil Boost</h3>
+            <p>Remineralizing fields with local biostimulants.</p>
+          </div>
+          <div class="hero-card water">
+            <h3>Waterwise</h3>
+            <p>Rain-fed irrigation saving 1.4M liters annually.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="container section about">
-      <h2>About The Happy Club</h2>
-      <p>The Happy Club is a welcoming space where people come together to celebrate everyday joys, learn wellbeing practices, and make new friends. We run monthly events, online meetups, and share resources to help brighten your day.</p>
-    </section>
-
-    <section id="events" class="container section features">
-      <h2>What We Do</h2>
-      <div class="grid">
-        <article class="card">
-          <h3>Monthly Meetups</h3>
-          <p>In-person and online meetups with guided activities and time to connect.</p>
-        </article>
-        <article class="card">
-          <h3>Workshops</h3>
-          <p>Short workshops focused on creativity, mindfulness, and wellbeing.</p>
-        </article>
-        <article class="card">
-          <h3>Community Projects</h3>
-          <p>Volunteer, collaborate, and bring positive change to your neighborhood.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="container section gallery">
-      <h2>Gallery</h2>
-      <p>Photos and highlights coming soon. Add your favorite moments when you join!</p>
-      <div class="placeholder-grid">
-        <div class="placeholder">Photo</div>
-        <div class="placeholder">Photo</div>
-        <div class="placeholder">Photo</div>
-      </div>
-    </section>
-
-    <section id="join" class="container section join">
-      <h2>Join The Happy Club</h2>
-      <p>Sign up to get event updates, resources, and a warm welcome email.</p>
-
-      <form id="signup-form" class="signup-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <label>
-          Full name
-          <input name="name" type="text" required />
-        </label>
-        <label>
-          Email address
-          <input name="email" type="email" required />
-        </label>
-        <label class="checkbox">
-          <input name="subscribe" type="checkbox" checked />
-          I want to receive updates and newsletters
-        </label>
-        <div class="form-actions">
-          <button type="submit" class="btn primary">Sign Up</button>
+    <section id="about" class="section story">
+      <div class="container split">
+        <div class="story-copy">
+          <h2>Our story is rooted in shared abundance</h2>
+          <p>We started as a small circle of growers with a big idea: happiness flourishes when land, people, and knowledge are cared for together. Today we’re cultivating living proof that sustainable agriculture can change the climate story and the dinner table at the same time.</p>
+          <div class="story-points">
+            <article>
+              <h3>Training that sticks</h3>
+              <p>Hands-on learning journeys that transform curious citizens into confident agro-innovators.</p>
+            </article>
+            <article>
+              <h3>Markets that matter</h3>
+              <p>Collaborative marketplaces giving fair prices to growers and better nutrition to families.</p>
+            </article>
+          </div>
         </div>
-      </form>
-      <p class="note">Tip: replace the Formspree action URL with your chosen backend or email provider.</p>
+        <aside class="story-aside">
+          <div class="impact-badge">
+            <span>2050-ready</span>
+            <p>Climate-smart practices designed to regenerate soil, protect water, and elevate community resilience.</p>
+          </div>
+          <div class="quote-card">
+            <p>“We walk the fields together, celebrate each harvest, and share the joy of feeding our neighbors.”</p>
+            <span>— The Happy Club Collective</span>
+          </div>
+        </aside>
+      </div>
     </section>
 
-    <section id="contact" class="container section contact">
-      <h2>Contact</h2>
-      <p>Email us at <a href="mailto:hello@thehappyclub.example">hello@thehappyclub.example</a> or use the signup form above.</p>
+    <section id="initiatives" class="section initiatives">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Planting seeds of possibility</h2>
+          <p>Every program is a pathway to healthier ecosystems and thriving livelihoods.</p>
+        </div>
+        <div class="card-grid">
+          <article class="feature-card">
+            <div class="icon">🌱</div>
+            <h3>Regenerative Gardens</h3>
+            <p>Neighbourhood gardens that revive native crops, teach zero-waste growing, and offer vibrant demo plots.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon">🔆</div>
+            <h3>Climate Labs</h3>
+            <p>Innovation hubs where youth co-create low-cost tech like solar dryers, IoT soil sensors, and living composters.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon">🤝</div>
+            <h3>Women’s Co-ops</h3>
+            <p>Entrepreneur circles providing microgrants, mentorship, and collective power to local women growers.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon">🚜</div>
+            <h3>Future Farmers</h3>
+            <p>Scholarships and apprenticeships matching passionate talent with regenerative farm mentors.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="impact" class="section impact">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Impact that feels like celebration</h2>
+          <p>Our metrics are measured in meals, smiles, and carbon captured.</p>
+        </div>
+        <div class="impact-grid">
+          <article class="impact-card">
+            <span class="metric">64</span>
+            <p>villages converting to regenerative farm plans</p>
+          </article>
+          <article class="impact-card">
+            <span class="metric">11k+</span>
+            <p>tonnes of soil revived with compost and biochar</p>
+          </article>
+          <article class="impact-card">
+            <span class="metric">2.5k</span>
+            <p>young leaders trained as Happy Ambassadors</p>
+          </article>
+          <article class="impact-card">
+            <span class="metric">86%</span>
+            <p>average increase in household nutrition diversity</p>
+          </article>
+        </div>
+        <div class="pathway">
+          <div class="pathway-card">
+            <h3>Our growth pathway</h3>
+            <ul>
+              <li><strong>Listen first:</strong> Map community needs with collaborative design sprints.</li>
+              <li><strong>Activate hubs:</strong> Build lush demonstration farms powered by local knowledge.</li>
+              <li><strong>Scale impact:</strong> Open-source the playbook so every region can adapt and thrive.</li>
+            </ul>
+          </div>
+          <div class="pathway-note">
+            <p>We combine science-backed methods with ancestral wisdom, ensuring each project honours land stewards and cultural heritage.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section team">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Meet the growers behind the glow</h2>
+          <p>Our team is a joyful mix of agroecologists, storytellers, and community builders.</p>
+        </div>
+        <div class="team-grid">
+          <article class="team-card">
+            <img src="images/Kuma.png" alt="Kuma" class="avatar" />
+            <h3>Kavindu Kumara</h3>
+            <p>Systems farmer ensuring every hub has resilient soil and water plans.</p>
+          </article>
+          <article class="team-card">
+            <img src="images/Menuka.png" alt="Menuka" class="avatar" />
+            <h3>Menuka Gunawardena</h3>
+            <p>Community wellness lead weaving nutrition education into every harvest.</p>
+          </article>
+          <article class="team-card">
+            <img src="images/kalindu.png" alt="Kalindu" class="avatar" />
+            <h3>Kalindu Rasanjana</h3>
+            <p>Tech cultivator building open-source tools for smarter, kinder farming.</p>
+          </article>
+          <article class="team-card">
+            <img src="images/thashindu.png" alt="Thashindu" class="avatar" />
+            <h3>Thashindu Thenuwara</h3>
+            <p>Story architect sharing farmers’ wins with partners around the globe.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="join" class="section join">
+      <div class="container join-grid">
+        <div class="join-copy">
+          <h2>Join the Happy Harvest Network</h2>
+          <p>Subscribe for growing tips, stories from the field, and first access to volunteer journeys.</p>
+          <ul class="join-benefits">
+            <li>Seasonal playbooks for regenerative gardens</li>
+            <li>Virtual farm tours and masterclasses</li>
+            <li>Impact reports right from the farmers</li>
+          </ul>
+        </div>
+        <form id="signup-form" class="signup-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <label>
+            Full name
+            <input name="name" type="text" required />
+          </label>
+          <label>
+            Email address
+            <input name="email" type="email" required />
+          </label>
+          <label class="checkbox">
+            <input name="subscribe" type="checkbox" checked />
+            I want to receive updates and newsletters
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="contact-card">
+          <h2>Let’s grow something beautiful together</h2>
+          <p>Email us at <a href="mailto:hello@thehappyclub.example">hello@thehappyclub.example</a> or call <a href="tel:+94112345678">+94 11 234 5678</a>. We love co-creating with schools, cooperatives, and conscious brands.</p>
+          <div class="contact-actions">
+            <a class="btn secondary" href="#join">Become a Partner</a>
+            <a class="btn ghost" href="#top">Back to top</a>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© <span id="year"></span> The Happy Club — Made with care.</p>
+      <p>© <span id="year"></span> The Happy Club. Growing joy with every seed.</p>
       <nav class="footer-nav">
         <a href="#about">About</a>
+        <a href="#initiatives">Initiatives</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
