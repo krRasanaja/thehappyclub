@@ -3,14 +3,88 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>The Happy Club — Growing Joyful Futures</title>
-  <meta name="description" content="The Happy Club nurtures regenerative agriculture, thriving farmers, and joyful communities across the globe." />
+  <title>The Happy Club — Regenerative Agriculture &amp; Joyful Futures</title>
+  <meta name="description" content="The Happy Club regenerates agriculture in Sri Lanka and worldwide with climate-smart training, thriving marketplaces, and joyful communities." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="The Happy Club" />
+  <meta name="keywords" content="The Happy Club, regenerative agriculture Sri Lanka, sustainable farming collective, community agriculture, sustainable development" />
+  <meta name="application-name" content="The Happy Club" />
+  <meta name="theme-color" content="#3fa072" />
+  <link rel="canonical" href="https://thehappyclub.lk/" />
+  <link rel="icon" type="image/svg+xml" href="images/logo-mark.svg" />
+  <meta property="og:site_name" content="The Happy Club" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://thehappyclub.lk/" />
+  <meta property="og:title" content="The Happy Club — Regenerative Agriculture &amp; Joyful Futures" />
+  <meta property="og:description" content="Join The Happy Club to champion regenerative agriculture, empower farmers, and grow joyful communities across Sri Lanka and the world." />
+  <meta property="og:image" content="https://thehappyclub.lk/images/logo-mark.svg" />
+  <meta property="og:image:alt" content="The Happy Club sprouting logo" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Happy Club — Regenerative Agriculture &amp; Joyful Futures" />
+  <meta name="twitter:description" content="Grow with The Happy Club as we scale climate-smart farming, resilient food networks, and community happiness worldwide." />
+  <meta name="twitter:image" content="https://thehappyclub.lk/images/logo-mark.svg" />
   <link rel="stylesheet" href="css/styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://thehappyclub.lk/#organization",
+    "name": "The Happy Club",
+    "alternateName": "The Happy Club Agriculture Collective",
+    "url": "https://thehappyclub.lk/",
+    "logo": "https://thehappyclub.lk/images/logo-mark.svg",
+    "description": "The Happy Club regenerates agriculture and nurtures joyful communities with climate-smart training, resilient seeds, and purpose-driven marketplaces.",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://thehappyclub.lk/"
+    },
+    "slogan": "Growing joy with every seed",
+    "email": "mailto:hello@thehappyclub.example",
+    "telephone": "+94 11 234 5678",
+    "foundingLocation": {
+      "@type": "Place",
+      "name": "Sri Lanka"
+    },
+    "areaServed": [
+      "Sri Lanka",
+      "Global"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "hello@thehappyclub.example",
+      "telephone": "+94 11 234 5678",
+      "availableLanguage": [
+        "English",
+        "Sinhala"
+      ]
+    },
+    "knowsAbout": [
+      "Regenerative agriculture",
+      "Sustainable farming",
+      "Community development",
+      "Agroecology education"
+    ],
+    "potentialAction": {
+      "@type": "SubscribeAction",
+      "name": "Join The Happy Club newsletter",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://thehappyclub.lk/#join",
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/MobileWebPlatform"
+        ]
+      }
+    }
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#top">
+      <a class="brand" href="#hero" rel="home">
         <span class="brand-mark" aria-hidden="true">🌾</span>
         <span class="brand-text">
           <strong>The Happy Club</strong>
@@ -22,7 +96,8 @@
         <span></span>
         <span></span>
       </button>
-      <nav id="site-nav" class="site-nav">
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#hero">Home</a>
         <a href="#about">About</a>
         <a href="#initiatives">Initiatives</a>
         <a href="#impact">Impact</a>
@@ -34,13 +109,14 @@
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
+  <main id="top" role="main">
+    <section id="hero" class="hero" aria-labelledby="hero-title">
       <div class="container hero-inner">
         <div class="hero-content">
           <span class="hero-tag">Regenerative agriculture for every community</span>
-          <h1>We help people grow food, futures, and joy.</h1>
-          <p>The Happy Club equips farmers, families, and future leaders with climate-smart training, resilient seeds, and thriving marketplaces—so every harvest feeds a kinder world.</p>
+          <h1 id="hero-title">The Happy Club grows regenerative agriculture and joyful futures.</h1>
+          <p>The Happy Club is Sri Lanka&#39;s regenerative agriculture collective equipping farmers, families, and future leaders with climate-smart training, resilient seeds, and thriving marketplaces—so every harvest feeds a kinder world.</p>
+          <p>When people look for &ldquo;The Happy Club&rdquo; online, we want them to discover a vibrant hub for sustainable farming insights, global collaboration, and stories that prove agriculture can be resilient, profitable, and joyful.</p>
           <div class="hero-cta">
             <a class="btn primary" href="#join">Join the Movement</a>
             <a class="btn secondary" href="#initiatives">See Our Programs</a>
@@ -81,16 +157,17 @@
     <section id="about" class="section story">
       <div class="container split">
         <div class="story-copy">
-          <h2>Our story is rooted in shared abundance</h2>
-          <p>We started as a small circle of growers with a big idea: happiness flourishes when land, people, and knowledge are cared for together. Today we’re cultivating living proof that sustainable agriculture can change the climate story and the dinner table at the same time.</p>
+          <h2>The Happy Club story is rooted in shared abundance</h2>
+          <p>The Happy Club began as a small circle of growers with a big idea: happiness flourishes when land, people, and knowledge are cared for together. Today we’re cultivating living proof that sustainable agriculture can change the climate story and the dinner table at the same time.</p>
+          <p>Our regenerative agriculture work spans training, soil health, value chains, and storytelling so that anyone searching for The Happy Club can join a movement that elevates farmers and nourishes communities.</p>
           <div class="story-points">
             <article>
               <h3>Training that sticks</h3>
-              <p>Hands-on learning journeys that transform curious citizens into confident agro-innovators.</p>
+              <p>Hands-on learning journeys from The Happy Club transform curious citizens into confident agro-innovators.</p>
             </article>
             <article>
               <h3>Markets that matter</h3>
-              <p>Collaborative marketplaces giving fair prices to growers and better nutrition to families.</p>
+              <p>Collaborative marketplaces led by The Happy Club give fair prices to growers and better nutrition to families.</p>
             </article>
           </div>
         </div>
@@ -110,29 +187,29 @@
     <section id="initiatives" class="section initiatives">
       <div class="container">
         <div class="section-heading">
-          <h2>Planting seeds of possibility</h2>
-          <p>Every program is a pathway to healthier ecosystems and thriving livelihoods.</p>
+          <h2>Planting seeds of possibility with The Happy Club</h2>
+          <p>Every program is a pathway to healthier ecosystems, thriving livelihoods, and stronger search visibility for regenerative agriculture leaders.</p>
         </div>
         <div class="card-grid">
           <article class="feature-card">
             <div class="icon">🌱</div>
             <h3>Regenerative Gardens</h3>
-            <p>Neighbourhood gardens that revive native crops, teach zero-waste growing, and offer vibrant demo plots.</p>
+            <p>Neighbourhood gardens run by The Happy Club revive native crops, teach zero-waste growing, and offer vibrant demo plots.</p>
           </article>
           <article class="feature-card">
             <div class="icon">🔆</div>
             <h3>Climate Labs</h3>
-            <p>Innovation hubs where youth co-create low-cost tech like solar dryers, IoT soil sensors, and living composters.</p>
+            <p>Innovation hubs where Happy Club youth co-create low-cost tech like solar dryers, IoT soil sensors, and living composters.</p>
           </article>
           <article class="feature-card">
             <div class="icon">🤝</div>
             <h3>Women’s Co-ops</h3>
-            <p>Entrepreneur circles providing microgrants, mentorship, and collective power to local women growers.</p>
+            <p>Entrepreneur circles providing microgrants, mentorship, and collective power to local women growers we champion.</p>
           </article>
           <article class="feature-card">
             <div class="icon">🚜</div>
             <h3>Future Farmers</h3>
-            <p>Scholarships and apprenticeships matching passionate talent with regenerative farm mentors.</p>
+            <p>Scholarships and apprenticeships matching passionate talent with regenerative farm mentors across The Happy Club network.</p>
           </article>
         </div>
       </div>
@@ -141,8 +218,8 @@
     <section id="impact" class="section impact">
       <div class="container">
         <div class="section-heading">
-          <h2>Impact that feels like celebration</h2>
-          <p>Our metrics are measured in meals, smiles, and carbon captured.</p>
+          <h2>Impact that feels like celebration for The Happy Club communities</h2>
+          <p>Our metrics are measured in meals, smiles, carbon captured, and how often people discover The Happy Club when searching for climate-smart farming.</p>
         </div>
         <div class="impact-grid">
           <article class="impact-card">
@@ -172,7 +249,7 @@
             </ul>
           </div>
           <div class="pathway-note">
-            <p>We combine science-backed methods with ancestral wisdom, ensuring each project honours land stewards and cultural heritage.</p>
+            <p>At The Happy Club we combine science-backed methods with ancestral wisdom, ensuring each project honours land stewards and cultural heritage.</p>
           </div>
         </div>
       </div>
@@ -181,8 +258,8 @@
     <section id="team" class="section team">
       <div class="container">
         <div class="section-heading">
-          <h2>Meet the growers behind the glow</h2>
-          <p>Our team is a joyful mix of agroecologists, storytellers, and community builders.</p>
+          <h2>Meet the growers behind The Happy Club glow</h2>
+          <p>Our team is a joyful mix of agroecologists, storytellers, and community builders keeping The Happy Club name vibrant worldwide.</p>
         </div>
         <div class="team-grid">
           <article class="team-card">
@@ -212,12 +289,12 @@
     <section id="join" class="section join">
       <div class="container join-grid">
         <div class="join-copy">
-          <h2>Join the Happy Harvest Network</h2>
-          <p>Subscribe for growing tips, stories from the field, and first access to volunteer journeys.</p>
+          <h2>Join The Happy Club Harvest Network</h2>
+          <p>Subscribe for growing tips, stories from the field, and first access to volunteer journeys that keep The Happy Club thriving.</p>
           <ul class="join-benefits">
-            <li>Seasonal playbooks for regenerative gardens</li>
-            <li>Virtual farm tours and masterclasses</li>
-            <li>Impact reports right from the farmers</li>
+            <li>Seasonal playbooks for regenerative gardens from The Happy Club team</li>
+            <li>Virtual farm tours and masterclasses with The Happy Club farmers</li>
+            <li>Impact reports right from The Happy Club communities</li>
           </ul>
         </div>
         <form id="signup-form" class="signup-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
@@ -243,8 +320,8 @@
     <section id="contact" class="section contact">
       <div class="container">
         <div class="contact-card">
-          <h2>Let’s grow something beautiful together</h2>
-          <p>Email us at <a href="mailto:hello@thehappyclub.example">hello@thehappyclub.example</a> or call <a href="tel:+94112345678">+94 11 234 5678</a>. We love co-creating with schools, cooperatives, and conscious brands.</p>
+          <h2>Let’s grow something beautiful with The Happy Club</h2>
+          <p>Email us at <a href="mailto:hello@thehappyclub.example">hello@thehappyclub.example</a> or call <a href="tel:+94112345678">+94 11 234 5678</a>. We love co-creating with schools, cooperatives, and conscious brands who want to search, share, and scale The Happy Club mission.</p>
           <div class="contact-actions">
             <a class="btn secondary" href="#join">Become a Partner</a>
             <a class="btn ghost" href="#top">Back to top</a>
@@ -257,7 +334,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <p>© <span id="year"></span> The Happy Club. Growing joy with every seed.</p>
-      <nav class="footer-nav">
+      <nav class="footer-nav" aria-label="Footer navigation">
         <a href="#about">About</a>
         <a href="#initiatives">Initiatives</a>
         <a href="#contact">Contact</a>
